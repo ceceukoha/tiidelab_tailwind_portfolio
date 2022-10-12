@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: rgb(231, 238;
+  background: rgb(231, 238, 231); 
 }
 .cal {
   position: relative;
