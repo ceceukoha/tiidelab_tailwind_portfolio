@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(231, 238;
+}
+.cal {
+  position: relative;
+  display: grid;
+  width: 100%;
+  background-color: black;
+}
+.value {
+  background: black;
+  font-size: 20px;
+  color: white;
+}
+.cal .value {
+  grid-column: span 4;
+  height: 100px;
+  text-align: right;
+  border: none;
+  outline: none;
+  padding: 2px;
+  /* font-size: 20px; */
+}
+.cal button {
+  display: grid;
+  width: 80px;
+  height: 80px;
+  color: white;
+  background: rgb(112, 94, 67);
+  place-items: center;
+  margin: 5px 5px 5px 5px;
+  border: 2px solid rgba(0, 0, 0, rgb(100, 248, 42));
+  border-radius: 50%;
+}
+.cal button:active {
+  background-color: rgba(112, 94, 67, 0.473);
+}
+.cal .numclear {
+  background: rgb(253, 158, 16);
+}
+.cal button.plus {
+  grid-row: span 1;
+  height: 80px;
+}
+.cal button.equal {
+  background: rgb(18, 27, 1);
+}
+
+
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
