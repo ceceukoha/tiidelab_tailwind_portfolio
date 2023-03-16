@@ -1,0 +1,45 @@
+.parent{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: crimson;
+    border: 2px solid black;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    /* transition: transform 1s cubic-bezier(0.04, 1.19, 0.31, 0.16) 2s; */
+    animation: myAnimation 3s ease-in-out 1s alternate infinite;
+    animation-play-state: paused;
+}
+.parent:hover .child{
+    background-color: blueviolet;
+    /* transform: translateY(500%) rotateY(360deg) scale(.5); */
+    animation-play-state: running;
+
+}
+@keyframes myAnimation {
+    0%{
+        transform: translateZ(0, 500%) scale(.6);
+        box-shadow: -20px 20px 20px 0 black;
+    }
+    25%{
+        transform: translateZ(0,0);
+        `1
+        box-shadow: -20px 20px 20px 0 green
+    }
+    50%{
+        transform: translateY(500%) translateX(0);
+    }
+    75%{
+        transform: translateX(0);
+        box-shadow: -20px 20px 20px 0 rgb(11, 0, 37);
+
+    }
+    100%{
+        transform: translateX(500%);
+        box-shadow: -20px 20px 20px 0 white;
+    }
+}
