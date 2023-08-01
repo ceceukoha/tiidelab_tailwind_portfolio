@@ -1,0 +1,19 @@
+{
+  "name": "portfolio_website_tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind -i ./input.css -o ./css/main.css",
+    "watch": "tailwind -i ./input.css -o ./css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "charts.css": "^0.9.0"
+  }
+}

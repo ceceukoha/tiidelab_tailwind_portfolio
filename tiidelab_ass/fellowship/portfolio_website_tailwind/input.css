@@ -1,0 +1,4 @@
+/* add the layers of css here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
